@@ -9,13 +9,20 @@
   - You this is Android logic ah.
 - A script tool to encase calls for compilers and packages for easier use on the phone.
   - Unroot friendly, so hooray Moumi runners !
+  - Script itself under Termux's `~` directory, while it links freely with your project source files within `storage`. The commands are executed within `~` so usually higher autherized.
   - Zhubo knows it is impossible to remain concise on professional tools, but dude you are working on a phone, so an fully functional IDE is, well hard to achieve. So far, Zhubo envisions using `uv` or pip-venv and git to manage. The latest progress is shown on the board above.
   - Zhubo envision a function called `vcd`, virtual directory.
+  - No critical config files originally, the script on its own is fully functional. This allows easy secodnary distribution.
 - How to run it
-  - They might come in interface or not
-  - Do launch them within the `~` directory of Termux, or else blokced by Android.
-  - It comes in 3 sereis, with different names. Names work when you launch them as a script by what they are named.
-    - by such as `./col13`, `./colL4`, `./colExRs3`, `./colWhateverRenamed`
+  - Place and execute the script within the `~` directory of Termux, or else it's execution is enernally blokced by Android.
+    - It is normal for file managers not to find `~`. Hereby recommend:
+      1. Download the script and open it with a file manager.
+      2. Clone the directory route, goto Termux and use command `mv` to move it to some directory within `~`.
+      3. Then `cd` to the script's directory, make sure to execute it there.
+  - grant a `chmod +x` or even `chmod +777` to it.
+  - Directly execute them by names, as they are essentialy scripts.
+    - Such as `./col13`, `./colL4`, `./colExRs3`, `./colWhateverRenamed`
+    - Rename them if its comfy for you, references were not based on name strings.
   - Help infos are within, or you can like `./col13 --help` to check help infos without officially launching it.
   - Press ctrl+C to exit the interface.
 - Bilungual originally supperted
