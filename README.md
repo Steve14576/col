@@ -27,6 +27,7 @@
   - **col** sereis: 
     - Interface & single call
     - In `.sh` script, ordinary, full function.
+    - Extensions supporetd and to be added.
     - Zhubo might sutck in whatever he thinks of the next second after.
     - Has mechanism of **`vcd`**, along with **proot** environment, and capatable **extensions**, it can immitate the usage of some packages by intercepting their commands, and try to actually execute them elsewhere.
 
@@ -34,7 +35,7 @@
   - **colL** sereis: 
     - Interface
     - In `.sh` script, smaller and lighter.
-    - Functions such as "vcd" or "set" is removed, 
+    - Functions such as "vcd", "set", support for extensions are removed, 
     - Zhubo think this is good enough dude you are coding an a phone
   - **colEx** series:
     - Zhubo try use AI transfer to `Rust` and further `standalone biary` so is it concise (I hope)
