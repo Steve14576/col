@@ -42,7 +42,10 @@
 - Again this is never about to build a comprehendsive "IDE", it's about to build a handy one.
   
 ## ***How to use*** ##
-  - Recommending working with `MT Manager` and `Acode`, recommending `rlwrap` in Termux.
+  - Recommending working with `MT Manager` and `Acode`, recommending `rlwrap` in `Termux`.
+    - MT Manager: A file manager for Andriod, able to access what the original file namager could not.
+    - Acode: An handy but powerful code editor on Android. [Acode](https://github.com/deadlyjack/acode)**
+    - Termux: A very powerful app functions as a `Linux` terminal simulator that can do many things even without root. [Termux](https://github.com/termux/termux-app)
   - Place and execute the script within the `~` directory of Termux, or else it's execution is enernally blokced by Android.
     - It is normal for file managers not to find `~`. Hereby recommend:
       1. Download the script and open it with a file manager.
