@@ -8,20 +8,19 @@
 - Generated with Qoder the AI IDE.
   - Zhubo knows a shxt about linux or shell script but Zhubo needs it to run codes on Zhubo's Android phone as it is really cool and Zhubo can code everywhere.
   - You this is Android logic ah.
-- 
+  
 - A script tool to encase calls for compilers and packages for easier use on the phone.
   - Unroot friendly, so hooray Moumi runners !
   - Script itself under Termux's `~` directory, while it links freely with your project source files within `storage`. The commands are executed within `~` so usually higher autherized.
   - Zhubo knows it is impossible to remain concise on professional tools, but dude you are working on a phone, so an fully functional IDE is, well hard to achieve. So far, Zhubo envisions using `uv` or pip-venv and git to manage. The latest progress is shown on the board above.
   - Zhubo envision a function called `vcd`, virtual directory.
   - No critical config files originally, the script on its own is fully functional. This allows easy secodnary distribution.
--  
+  
 - Bilungual originally supperted
   - Zhubo use AI to generate `Chinese` version and use AI to gnerate `English` version
   - Zhubo found a thing called Klingon, Zhubo happy.
 - You might have heard the project “Termirun”, you might have not because it is a immature project with such cool name which it doesn't support. Now here comes the successer, the col sereis.
--  
-
+  
 - The col series comes in 3 lineups:
   - **col** sereis: 
     - Interface & single call
@@ -38,10 +37,12 @@
     - Zhubo try use AI transfer to `Rust` and further `standalone biary` so is it concise (I hope)
     - Theoretically functions the same as the original `col` series.
     - The rest, unsure.
-  -  
+    
 - This should be a long term projectm I hope? But Zhubo not planning to learn shell script. Zhubo needs to fucus now on learning c and numpy.
 - Again this is never about to build a comprehendsive "IDE", it's about to build a handy one.
+  
 ## ***How to use*** ##
+  - Recommending working with `MT Manager` and `Acode`, recommending `rlwrap` in Termux.
   - Place and execute the script within the `~` directory of Termux, or else it's execution is enernally blokced by Android.
     - It is normal for file managers not to find `~`. Hereby recommend:
       1. Download the script and open it with a file manager.
